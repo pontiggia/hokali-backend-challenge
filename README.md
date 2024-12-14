@@ -67,12 +67,12 @@ Documentacion de endpoints completa: [documentación de Postman](https://documen
 **Solicitud:**
 
 ```http
-POST /users
+POST api/v1/users
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@example.com"
+  "name": "Juan Pérez",
+  "email": "juan.perez@example.com"
 }
 ```
 
@@ -81,8 +81,8 @@ Content-Type: application/json
 ```json
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "john@example.com"
+  "name": "Juan Pérez",
+  "email": "juan.perez@example.com"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json
 **Solicitud:**
 
 ```http
-POST /exams
+POST api/v1/exams
 Content-Type: application/json
 
 {
-  "title": "History Exam",
+  "title": "Examen de Historia",
   "questions": [
     {
-      "text": "Who discovered America?",
+      "text": "¿Quién descubrió América?",
       "type": "multiple_choice",
-      "options": ["Columbus", "Vespucci", "Magellan"]
+      "options": ["Cristóbal Colón", "Américo Vespucio", "Fernando de Magallanes", "Hernán Cortés"]
     },
     {
-      "text": "The French Revolution began in 1789.",
+      "text": "La Revolución Francesa ocurrió en 1789.",
       "type": "true_false"
     }
   ]
@@ -115,17 +115,22 @@ Content-Type: application/json
 ```json
 {
   "id": 1,
-  "title": "History Exam",
+  "title": "Examen de historia",
   "questions": [
     {
       "id": 1,
-      "text": "Who discovered America?",
+      "text": "¿Quién descubrió América?",
       "type": "multiple_choice",
-      "options": ["Columbus", "Vespucci", "Magellan"]
+      "options": [
+        "Cristóbal Colón",
+        "Américo Vespucio",
+        "Fernando de Magallanes",
+        "Hernán Cortés"
+      ]
     },
     {
       "id": 2,
-      "text": "The French Revolution began in 1789.",
+      "text": "La Revolución Francesa ocurrió en 1789.",
       "type": "true_false",
       "options": null
     }
@@ -135,5 +140,5 @@ Content-Type: application/json
 
 ## Diagrama de Clases
 
-El diagrama de clases del proyecto se encuentra en la carpeta "docs" (o disponible como imagen en la documentación original, si corresponde).
+El diagrama de clases del proyecto:
 ![Diagrama de Clases](http://www.plantuml.com/plantuml/png/ZP4_JmCn3CNtV0hhHb0hkju0FGc6ZWYO44FKir2a93rYdoX2V7Vofr5zpTBfdf_FxoSxMs8TU7PMxQqcWZV20ByAuDQCFUmy9-crmnvUE1Z_cMfqsjY5STHkO4OtCVNmTAxUFzIVAj7PRgBPi5raVyr8R0u-vZoVP0ovbb57MWuUMMBuPrfW3rE6LkkX4dUdY4gGu0OY1s8v4mPHvak_cdJAHysOLBArfsyCaJna8RSfJeFH1L-ZnT64LMBbYlk04JiEBFWHbL-ystImMjr3TxTUttHoIPNqPR-UkMssmrLV_bQMK-LpRcv4-XRzE3lx3m00)

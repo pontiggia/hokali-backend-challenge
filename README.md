@@ -140,5 +140,4 @@ Content-Type: application/json
 
 ## Diagrama de Clases
 
-El diagrama de clases del proyecto:
 ![Diagrama de Clases](http://www.plantuml.com/plantuml/png/ZP4_JmCn3CNtV0hhHb0hkju0FGc6ZWYO44FKir2a93rYdoX2V7Vofr5zpTBfdf_FxoSxMs8TU7PMxQqcWZV20ByAuDQCFUmy9-crmnvUE1Z_cMfqsjY5STHkO4OtCVNmTAxUFzIVAj7PRgBPi5raVyr8R0u-vZoVP0ovbb57MWuUMMBuPrfW3rE6LkkX4dUdY4gGu0OY1s8v4mPHvak_cdJAHysOLBArfsyCaJna8RSfJeFH1L-ZnT64LMBbYlk04JiEBFWHbL-ystImMjr3TxTUttHoIPNqPR-UkMssmrLV_bQMK-LpRcv4-XRzE3lx3m00)
